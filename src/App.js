@@ -13,22 +13,22 @@ export default function App(){
   )
 }
 
-// export default function App() {
-  // const [myState, setMyState] = useState("Hello world")
-  // const [fleg, setFleg]=useState(false)
-  // const myFunc=useCallback(()=>{
-  //   console.log(myState);
-//   // }, [flag])
-//   return (
-//     <div>
-//       {/* <h1>{myState}</h1>
-//       <button onClick={()=>myFunc()}>Invoke useCallBack</button>
-//       <button onClick={()=>setMyState(myState + "A")}>chagde my state</button>
-//       <button onClick={()=>setFleg(!fleg)}>Invoke useCallBack</button> */}
+export default function App() {
+  const [myState, setMyState] = useState("Hello world")
+  const [fleg, setFleg]=useState(false)
+  const myFunc=useCallback(()=>{
+    console.log(myState);
+  // }, [flag])
+  return (
+    <div>
+      {/* <h1>{myState}</h1>
+      <button onClick={()=>myFunc()}>Invoke useCallBack</button>
+      <button onClick={()=>setMyState(myState + "A")}>chagde my state</button>
+      <button onClick={()=>setFleg(!fleg)}>Invoke useCallBack</button> */}
 
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
 // //     <div>
 // //       {/* <Routes>
