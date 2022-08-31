@@ -12,7 +12,7 @@ export default function App() {
       <button onClick={()=>myFunc()}>Invoke useCallBack</button>
       <button onClick={()=>setMyState(myState + "A")}>chagde my state</button>
       <button onClick={()=>setFleg(!fleg)}>Invoke useCallBack</button>
-
+k.jx,hcv nčlykjc,ysjclyjkc mylmlkyc yk
     </div>....
   )
 }
