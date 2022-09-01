@@ -13,12 +13,12 @@ export default function App() {
       <button onClick={()=>setMyState(myState + "A")}>chagde my state</button>
       <button onClick={()=>setFleg(!fleg)}>Invoke useCallBack</button>
 k.jx,hcv nčlykjc,ysjclyjkc mylmlkyc yk
-    </div>....
+    </div>
   )
 }
 
     <div>
-      {/* <Routes>
+      <Routes>
         <Route path={"/"} element={<h1>Welcome</h1>}></Route>
         <Route path={"/drop-down"} element={<h1>Dropdown</h1>}></Route>
         <Route path={"/google"} element={<h1>Google</h1>}></Route>
@@ -37,7 +37,7 @@ k.jx,hcv nčlykjc,ysjclyjkc mylmlkyc yk
       <Link to={"/list"}>
         <h1>To do list</h1>
       </Link>
-    </div> */}
+    </div>
 
 
     </div>
