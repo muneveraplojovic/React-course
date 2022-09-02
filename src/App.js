@@ -14,12 +14,26 @@ export default function App() {
     console.log(myState);
   // }, [flag])
   return (
+    // mantine.dev
     <div>
 /    </div>
   )
 }
 
-//     <div>
+export default function App() {
+    const [myState, setMyState] = useState("Hello world")
+    const [fleg, setFleg]=useState(false)
+    const myFunc=useCallback(()=>{
+      console.log(myState);
+    // }, [flag])
+    return (
+      // mantine.dev
+      <div>
+  /    </div>
+    )
+  }
+  
+// //     <div>
 //       {/* <Routes>
         <Route path={"/"} element={<h1>Welcome</h1>}></Route>
         <Route path={"/drop-down"} element={<h1>Dropdown</h1>}></Route>
@@ -43,3 +57,5 @@ export default function App() {
 
 
     </div>
+
+
