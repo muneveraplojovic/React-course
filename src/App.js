@@ -14,7 +14,7 @@ export default function App() {
     console.log(myState);
   // }, [flag])
   return (
-    // mantine.dev
+    // mantine.devldkcmčocvlkdmvšoepd
     <div>
 /    </div>
   )
