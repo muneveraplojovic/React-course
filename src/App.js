@@ -12,7 +12,13 @@ export default function App() {
   const [fleg, setFleg]=useState(false)
   const myFunc=useCallback(()=>{
     console.log(myState);
-  // }, [flag])
+
+
+    export default function App() {
+      const [myState, setMyState] = useState("Hello world")
+      const [fleg, setFleg]=useState(false)
+      const myFunc=useCallback(()=>{
+        console.log(my    // }, [flag])
   return (
     // mantine.devldkcmčocvlkdmvšoepd
     <div>
