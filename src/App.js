@@ -34,14 +34,19 @@ export default function App() {
     // }, [flag])
     return (
       // mantine.dev
-      const [myState, setMyState] = useState("Hello world")
-    const [fleg, setFleg]=useState(false)
-    const myFunc=useCallback(()=>{
       <div>
   /    </div>
     )
   }
+  import React from 'react'
   
+  function App() {
+    return (
+      <div>App</div>
+    )
+  }
+  
+  export default App
 // //     <div>
 //       {/* <Routes>
         <Route path={"/"} element={<h1>Welcome</h1>}></Route>
